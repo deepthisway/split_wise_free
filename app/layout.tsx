@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className={`${inter.className} antialiased`}>
 
         <ConvexClientProvider>
-          <Header />
+          {<Header />}
           <main className="min-h-screen">{children}</main>
         </ConvexClientProvider>
       </body>
