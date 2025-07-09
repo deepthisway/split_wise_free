@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "convex/seed.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "convex/seed.jsx", "convex/contacts.ts", "convex/users.js", "convex/contacts.jsx", "hooks/use-convex-query.jsx"],
   "exclude": ["node_modules"]
-}
+}    
